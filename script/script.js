@@ -18,14 +18,31 @@ for (i=1; i<=100; i++){
     }
     
     else if(i%5===0){
+        const newEl = document.createElement("div")
+        newEl.classList.add("element")
+        newEl.innerHTML = "Buzz"
+
+        containerEl.appendChild(newEl);
+
         console.log("Buzz");
     } 
     
     else if (i%3===0){
+        const newEl = document.createElement("div")
+        newEl.classList.add("element")
+        newEl.innerHTML = "Fizz"
+        
+        containerEl.appendChild(newEl);
         console.log("Fizz");
     } 
     
     else{
+        const newEl = document.createElement("div")
+        newEl.classList.add("element")
+        newEl.innerHTML = i
+        
+        containerEl.appendChild(newEl);
+
         console.log(i);
     }
 }
