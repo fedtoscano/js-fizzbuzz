@@ -12,3 +12,15 @@ Creo un ciclo for che stampi i numeri da 1 a 100, definisco dentro il ciclo la  
             else if(num%5===0) {console.log("Buzz")}
             else if(num%3===0 && num%5===0){console.log{"FizzBuzz"}}
                 else {console.log(num)}
+
+    inverto la logica condizionale in questo modo poiché il codice esclude automaticamente il terzo else if avendo già visto se il numero non è divisibile per 3 o per 5
+
+        creo un if statement all'interno con le condizioni:
+        if (num%3===0 && num%5===0){console.log("FizzBuzz")}
+
+            else if(num%5===0) {console.log("Buzz")}
+
+            else if(num%3===0) {console.log("Fizz")}
+
+            else {console.log(num)}
+
