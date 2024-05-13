@@ -23,5 +23,5 @@ Creo un ciclo for che stampi i numeri da 1 a 100, utilizzo l'indice all'interno
             scrivo fizz
         se il numero è divisibile per 5
             scrivo buzz
-     
+    
 
